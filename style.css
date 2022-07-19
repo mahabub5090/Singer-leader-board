@@ -1,0 +1,167 @@
+body {
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+}
+
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: start;
+
+}
+
+.top {
+    font-size: 24px;
+    color:
+        #562EFF;
+    margin-left: 26px;
+    padding-top: 33px;
+    margin-top: 0;
+}
+
+.player img {
+    height: 56px;
+    width: 56px;
+    padding-left: 26px;
+    border-radius: 0px;
+    ;
+}
+
+.player-name {
+    font-family: 'Poppins';
+    font-size: 18px;
+    padding-left: 16px;
+}
+
+
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+
+}
+
+.blog img {
+    height: 117px;
+    width: 177px;
+    padding-left: 26px;
+}
+
+.sec {
+
+    border-radius: 5px;
+    background-color:
+        #FFFFFF;
+    width: 870px;
+    /* margin: ;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+    padding: 0;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+hr {
+    margin-top: 20px;
+    border: 1px solid #D1D1D1;
+    width: 807px;
+}
+
+.blog {
+    display: flex;
+    ;
+}
+
+.text {
+    padding-left: 16px;
+    padding-bottom: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: #562EFF;
+}
+
+.text>h3 {
+    font-size: 20px;
+}
+
+.text>p {
+    font-size: 16px;
+}
+
+#courses {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 14px 16px 16px 12px;
+    font-size: 12px;
+}
+
+.course img {
+    width: 224px;
+    height: 104px;
+
+
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.star-color {
+    color: #FFC014;
+}
+
+.star-empty {
+    color: #AEAEAE;
+
+}
+
+.clock {
+    color: #FF4A60;
+    font-family: 'Open Sans';
+    font-style: normal;
+    background: #FEE5DF;
+    border-radius: 14.6913px;
+    padding: 3px 7px;
+}
+
+.course {
+ box-shadow: 1px 1px 15px #efefe2;
+ padding: 15px;
+ border-radius: 5px;}
+
+
+/* End  */
+
+
+
+
