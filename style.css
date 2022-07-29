@@ -209,15 +209,16 @@ a {
     }
 }
 
-
+/* tablate devices */
 @media only screen and (min-width:768px) and (max-width:992px) {
     .sec {
-
         width: 750px;
         margin: auto;
     }
 
-
+    .top {
+        text-align: center;
+    }
 
     .part {
         display: flex;
