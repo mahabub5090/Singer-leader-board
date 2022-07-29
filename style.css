@@ -67,12 +67,9 @@ body {
 .sec {
 
     border-radius: 5px;
-    background-color:
-        #FFFFFF;
+    background-color: #FFFFFF;
     width: 870px;
-    /* margin: ;------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
     padding: 0;
-
 }
 
 main {
@@ -155,13 +152,99 @@ a {
 }
 
 .course {
- box-shadow: 1px 1px 15px #efefe2;
- padding: 15px;
- border-radius: 5px;}
+    box-shadow: 1px 1px 15px #efefe2;
+    padding: 15px;
+    border-radius: 5px;
+}
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Media queiry */
+/* =============================================================================== */
+/* mobile devices */
+@media only screen and (max-width:767px) {
+
+    .sec {
+
+        min-width: 300px;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .part {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        row-gap: 30px;
+    }
+
+    .player {
+        flex-direction: column-reverse;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+        row-gap: 30px;
+
+    }
+
+    .top {
+        text-align: center;
+    }
+
+    #courses {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        row-gap: 20px;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .sec {
+
+        width: 750px;
+        margin: auto;
+    }
+
+
+
+    .part {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+        row-gap: 30px;
+
+    }
+
+    #courses {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        row-gap: 20px;
+    }
+
+}
 
 /* End  */
-
-
-
-
