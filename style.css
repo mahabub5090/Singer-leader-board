@@ -166,14 +166,16 @@ a {
 /* =============================================================================== */
 /* mobile devices */
 @media only screen and (max-width:767px) {
+    main {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .sec {
 
-        min-width: 300px;
-        max-width: 600px;
+        width: 375px;
+
         margin: auto;
-        display: grid;
-        justify-content: center;
     }
 
     .part {
@@ -213,11 +215,15 @@ a {
 
 /* tablate devices */
 @media only screen and (min-width:768px) and (max-width:992px) {
+    main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .sec {
-        width: 750px;
+        width: 768px;
         margin: auto;
-        display: grid;
-        justify-content: center;
+
     }
 
     .top {
