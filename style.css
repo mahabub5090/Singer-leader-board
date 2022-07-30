@@ -172,6 +172,8 @@ a {
         min-width: 300px;
         max-width: 600px;
         margin: auto;
+        display: grid;
+        justify-content: center;
     }
 
     .part {
@@ -214,6 +216,8 @@ a {
     .sec {
         width: 750px;
         margin: auto;
+        display: grid;
+        justify-content: center;
     }
 
     .top {
